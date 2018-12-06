@@ -456,4 +456,15 @@
 <script src="js/main.js"></script>
 
 </body>
+<script defer>
+    function loadChatWidget() {
+        chatteron.init({
+            clientID: "5ydIF0VbCkzoIoxcHUkXT",
+            title      : "Chat here",
+            width      : 580,
+        });
+    }
+</script>
+<script defer src="https://staging-web2.chatteron.io/scripts/sdk.js" onload="loadChatWidget();">
+</script>
 </html>
